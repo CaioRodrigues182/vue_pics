@@ -22,7 +22,7 @@ export default {
 
     return {
 
-      routes
+      routes: routes.filter(route => route.menu)
     }
   }
 }
